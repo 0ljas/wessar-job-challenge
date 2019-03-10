@@ -1,0 +1,27 @@
+@import "../variables";
+
+.btn {
+  padding: 15px 30px;
+  border: none;
+
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+
+  color: $dark;
+  background-color: transparent;
+  border: 1px solid $dark;
+  border-radius: 5px;
+}
+
+.btn--purple {
+  color: #ffffff;
+  background-color: $purple;
+  border: none;
+}
+
+.btn--ok {
+  color: #ffffff;
+  background-color: $green;
+  border: none;
+}

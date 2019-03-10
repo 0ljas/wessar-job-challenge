@@ -1,0 +1,45 @@
+@import "../../scss/variables";
+
+.CompanyDetailsForm {
+  width: 520px;
+  border-radius: 10px;
+}
+
+.CompanyDetailsForm__header {
+  padding: 50px 40px;
+  padding-bottom: 23px;
+  background-color: $yellow;
+
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: 0px 6px 9px -4px rgba(0, 0, 0, 0.52);
+}
+
+.CompanyDetailsForm__title {
+  margin: 0;
+
+  font-size: 22px;
+}
+
+.CompanyDetailsForm__fieldset {
+  margin: 40px;
+
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+
+  border: none;
+}
+
+.CompanyDetailsForm__btn-group {
+  padding: 40px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+
+  box-shadow: -1px 3px 15px 0px rgba(0, 0, 0, 0.52);
+}
+
+.CompanyDetailsForm__btn {
+  margin-left: 10px;
+}
